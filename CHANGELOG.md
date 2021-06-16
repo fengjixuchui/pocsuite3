@@ -204,3 +204,22 @@ Cross-platform shell code generation
 * 修复html导出编码错误
 * 修复console模式下lport设置失败
 * shell模式可以使用select或use选择shell
+
+# version 1.7.0
+----------------- 
+* 修复`Python 3.9`兼容性问题
+* console模式，添加系统命令执行，添加pocuite3命令clear清除屏幕
+
+# version 1.7.2
+-----------------
+* 增加powershell bash反弹shell 以及编码函数
+
+# version 1.7.4
+-----------------
+* 修复批量执行poc时因为报错导致扫描中断问题 fixes #149
+* 修复--pocs-path参数bug
+
+# version 1.7.5
+-----------------
+* 添加录包功能和dork字段支持base64编码 fixes #169 #173
+* 修复target插件requests参数无效bug fix #183
